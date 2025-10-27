@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Up Store - ارتقِ بخادمك إلى المستوى التالي!</title>
+    <meta name="description" content="متجر متخصص في السكريبتات والأدوات المبتكرة لتطوير خوادم الألعاب">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">Level Up Store</div>
+                
+                <!-- Desktop Menu -->
+                <ul class="nav-menu desktop-menu">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#reviews">التقييمات</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="menu-icon">☰</span>
+                    <span class="close-icon">✕</span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#reviews">التقييمات</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">متجر لفل اب</h1>
+                    <p class="hero-subtitle">💡 ابدأ من الصفر وابنِ أول دخل رقمي لك اليوم!</p>
+                    <p class="hero-description">
+                        اكتشف كيف تحوّل مهاراتك أو وقتك إلى مصدر دخل مستمر من خلال بيع منتجات رقمية بسيطة تحقق لك أرباحًا حتى أثناء نومك 😴💰
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">ابدأ رحلتك الآن</a>
+                        <a href="#products" class="btn btn-secondary">تسوق الآن</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800" alt="متجر لفل اب">
+                    <div class="hero-decoration hero-decoration-1"></div>
+                    <div class="hero-decoration hero-decoration-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <p class="section-subtitle">
+                متجر لفل اب – وجهتك لبناء مشروعك الرقمي بأقل التكاليف وأعلى جودة
+            </p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>النمو المستمر</h3>
+                    <p>تطوير مستمر للأدوات والمميزات</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>الأمان</h3>
+                    <p>حماية متقدمة لبياناتك</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>التخزين السحابي</h3>
+                    <p>وصول سريع وآمن لملفاتك</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>السرعة</h3>
+                    <p>أداء فائق السرعة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>الدعم الفني</h3>
+                    <p>فريق متواجد على مدار الساعة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>التعلم الذكي</h3>
+                    <p>أدوات تساعدك على النجاح</p>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">350+</div>
+                    <div class="stat-label">عميل</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2500+</div>
+                    <div class="stat-label">زائر</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">600+</div>
+                    <div class="stat-label">عملية بيع</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">منتجاتنا</h2>
+            <p class="section-subtitle">اكتشف مجموعتنا المميزة من المنتجات الرقمية</p>
+
+            <div class="products-grid">
+                <div class="product-card featured">
+                    <div class="product-badge">الأكثر مبيعاً</div>
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400" alt="الدليل التمهيدي">
+                    <div class="product-content">
+                        <h3>الدليل التمهيدي للربح من المنتجات الرقمية</h3>
+                        <p>كتاب رقمي شامل يشرح لك خطوة بخطوة كيف تبدأ رحلتك في عالم المنتجات الرقمية</p>
+                        <div class="product-footer">
+                            <span class="product-price">4 ريال</span>
+                            <a href="#contact" class="btn btn-primary">اشتري الآن</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400" alt="كتب تعليمية">
+                    <div class="product-content">
+                        <h3>كتب تعليمية رقمية</h3>
+                        <p>مجموعة من الكتب التعليمية المتخصصة في مجالات مختلفة</p>
+                        <div class="product-footer">
+                            <span class="product-price">19 ريال</span>
+                            <a href="#contact" class="btn btn-primary">اشتري الآن</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400" alt="الباقة المميزة">
+                    <div class="product-content">
+                        <h3>الباقة المميزة</h3>
+                        <p>باقة شاملة تحتوي على جميع منتجاتنا بسعر خاص</p>
+                        <div class="product-footer">
+                            <span class="product-price">99 ريال</span>
+                            <a href="#contact" class="btn btn-primary">اشتري الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">آراء عملائنا</h2>
+            <div class="reviews-header">
+                <div class="overall-rating">
+                    <span class="rating-number">4.9</span>
+                    <div class="stars">★★★★★</div>
+                    <p>من أكثر من 350 تقييم</p>
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">المتجر ممتاز ويستحق التقييم الممتاز، والمنتجات رائعة جدًا، شكرًا لكم 💙</p>
+                    <div class="review-author">
+                        <strong>محمد العتيبي</strong>
+                        <span>منذ أسبوعين</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">والله صراحة أفضل متجر تعاملت معه، المنتجات عالية الجودة والدعم سريع</p>
+                    <div class="review-author">
+                        <strong>عبدالله السعيد</strong>
+                        <span>منذ 3 أيام</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">تجربة رائعة! المنتجات مفيدة جدًا وساعدتني في بدء مشروعي</p>
+                    <div class="review-author">
+                        <strong>فهد الدوسري</strong>
+                        <span>منذ أسبوع</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">خدمة عملاء ممتازة ومنتجات ذات قيمة عالية، أنصح الجميع بالتعامل معهم</p>
+                    <div class="review-author">
+                        <strong>خالد القحطاني</strong>
+                        <span>منذ 5 أيام</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">المحتوى مفيد جدًا والأسعار مناسبة، شكرًا على الجهد المبذول</p>
+                    <div class="review-author">
+                        <strong>سعد الشمري</strong>
+                        <span>منذ يومين</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">متجر موثوق ومنتجات احترافية، سأكرر الشراء بالتأكيد</p>
+                    <div class="review-author">
+                        <strong>أحمد الغامدي</strong>
+                        <span>منذ أسبوع</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <h3 class="contact-subtitle">نحب أن نسمع منك!</h3>
+            <p class="section-subtitle">
+                لا تتردد في التواصل معنا عبر أي من الطرق التالية. فريق الدعم جاهز لمساعدتك في كل خطوة من رحلتك الرقمية
+            </p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon email">📧</div>
+                    <h4>البريد الإلكتروني</h4>
+                    <p>info@levelup.zaher.io</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon whatsapp">📱</div>
+                    <h4>واتساب</h4>
+                    <p>تواصل معنا</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon instagram">📷</div>
+                    <h4>انستغرام</h4>
+                    <p>@levelup_store</p>
+                </div>
+            </div>
+
+            <div class="cta-card">
+                <h3>🎯 جاهز للبدء؟</h3>
+                <p>كل يوم تأجّله هو فرصة ضائعة! ابدأ مشروعك الرقمي اليوم واحصل على دخلك الأول</p>
+                <div class="cta-message">تتعب بالشغل ولا ترى نتائج؟ اكتشف كيف تبيع منتجات رقمية بسهولة 💰</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>متجر لفل اب</h3>
+                    <p>وجهتك لبناء مشروعك الرقمي</p>
+                    <p class="footer-tagline">💡 ابدأ من الصفر وابنِ أول دخل رقمي لك اليوم</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#products">المنتجات</a>
+                    <a href="#reviews">التقييمات</a>
+                    <a href="#contact">اتصل بنا</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 متجر لفل اب. جميع الحقوق محفوظة.</p>
+                <p>موثوق به من قبل أكثر من 350+ عميل | 600+ عملية بيع ناجحة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
